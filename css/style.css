@@ -7,7 +7,7 @@ body{
 h1{
     position: relative;
     top: 10%;
-    color: floralwhite;
+    color: rgb(236, 162, 14);
     font-family: 'Merienda One', cursive;
     font-size: 4rem;
 
@@ -54,3 +54,35 @@ font-family: 'Merriweather', serif;
     
 } 
 
+
+/* *****************************Media section********************************** */
+@media (max-width:900px){
+
+h1{
+    position: relative;
+    top: 10%;
+    color: #fff;
+    font-family: 'Merienda One', cursive;
+    font-size: 3rem;
+
+}
+
+h3{
+    position: relative;
+    top: 10%;
+    font-family: 'Merienda One', cursive;
+    color: rgb(153, 153, 152);
+    font-size: 1.5rem;
+
+}
+      .my-image{
+          padding-top: 10% ;
+          position: relative;
+          left: 0%;
+          
+          width: 150px;
+          height: 200px;
+          
+      } 
+
+}
