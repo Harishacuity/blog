@@ -1,0 +1,56 @@
+body{
+    
+    margin: 0;
+    
+}
+
+h1{
+    position: relative;
+    top: 10%;
+    color: floralwhite;
+    font-family: 'Merienda One', cursive;
+    font-size: 4rem;
+
+}
+
+h3{
+    position: relative;
+    top: 10%;
+    font-family: 'Merienda One', cursive;
+    color: rgb(153, 153, 152);
+    font-size: 2rem;
+
+}
+.jumbotron{
+    padding: 2rem 1rem;
+}
+
+/* 
+font-family: 'Merienda One', cursive;
+font-family: 'Merriweather', serif;
+*/
+
+/* *****************************Title section********************************** */
+
+.firstDiv{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background-image: linear-gradient(120deg, rgb(7, 7, 17) 60%,rgb(248, 248, 248) 40%);
+    background-color: rgb(252, 253, 253); 
+}
+.row{
+    padding: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.my-image{
+    position: relative;
+    left: 30%;
+    
+    width: 350px;
+    height: 400px;
+    
+} 
+
