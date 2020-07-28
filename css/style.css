@@ -1,12 +1,7 @@
-body{
-    
-    margin: 0;
-    
-}
+
 
 h1{
-    position: relative;
-    top: 10%;
+
     color: rgb(236, 162, 14);
     font-family: 'Merienda One', cursive;
     font-size: 4rem;
@@ -14,21 +9,23 @@ h1{
 }
 
 h3{
-    position: relative;
-    top: 10%;
+
     font-family: 'Merienda One', cursive;
     color: rgb(153, 153, 152);
     font-size: 2rem;
 
 }
+h4{
+    font-family: 'Merriweather', serif;
+    color:  #000000;
+}
 .jumbotron{
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
+    margin: 0em;
+    background-color: rgb(253, 249, 207);
 }
 
-/* 
-font-family: 'Merienda One', cursive;
-font-family: 'Merriweather', serif;
-*/
+
 
 /* *****************************Title section********************************** */
 
@@ -37,52 +34,66 @@ font-family: 'Merriweather', serif;
   padding: 0;
   margin: 0;
   color: #fff;
-  background-image: linear-gradient(120deg, rgb(7, 7, 17) 60%,rgb(248, 248, 248) 40%);
-    background-color: rgb(252, 253, 253); 
+  background-image: linear-gradient(120deg,#000000 60%,rgb(230, 225, 225) 40%);
+  background-color: rgb(252, 253, 253); 
 }
 .row{
-    padding: 10%;
-    padding-bottom: 2%;
+    padding: 5%;
     text-align: center;
 }
-.my-image{
-    position: relative;
-    left: 30%;
-    
-    width: 350px;
-    height: 400px;
-    
-} 
-
+.div1{
+    padding: 5%;
+}
+.div2{
+    padding-left: 5%;
+    background-color: rgb(253, 249, 207);
+    text-align: left;
+    color: black;
+    border-radius: 10%;
+}
 
 /* *****************************Media section********************************** */
 @media (max-width:900px){
 
-h1{
-    position: relative;
-    top: 10%;
+    h1{
+
+        color: #fff;
+        font-family: 'Merienda One', cursive;
+        font-size: 2rem;
+
+    }
+
+    h3{
+
+        font-family: 'Merienda One', cursive;
+        color: rgb(153, 153, 152);
+        font-size: 1rem;
+
+    }
+    h4,p{
+        font-size: 1rem;
+        text-align: left;
+        color: #000000;
+    }
+
+    .firstDiv{
+    width: 100%;
+    padding: 0;
+    margin: 0;
     color: #fff;
-    font-family: 'Merienda One', cursive;
-    font-size: 3rem;
-
-}
-
-h3{
-    position: relative;
-    top: 10%;
-    font-family: 'Merienda One', cursive;
-    color: rgb(153, 153, 152);
-    font-size: 1.5rem;
-
-}
-      .my-image{
-          padding-top: 10% ;
-          position: relative;
-          left: 0%;
-          
-          width: 150px;
-          height: 200px;
-          
-      } 
-
+    background-image: linear-gradient(to bottom ,#000000 60%,rgb(230, 225, 225) 40%);
+    background-color: rgb(252, 253, 253); 
+    }
+    .row{
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    .div1{
+        padding: 5%;
+    }
+    .div2{
+        background-color:rgb(255, 255, 255) ;
+        border-radius: 10% 10%;
+    }
+      
 }
